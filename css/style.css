@@ -350,6 +350,11 @@ main {
     margin: 35px auto;
 }
 
+.footer {
+    height: 372px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
 .footer-category {
     float: left;
     margin-top: 60px;
