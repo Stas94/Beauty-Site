@@ -1,0 +1,235 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: #E5E5E5;
+    height: 50px;
+}
+
+.wrapper {
+    width: 1110px;
+    /* height: 50px; */
+    margin: 0 auto;
+}
+
+.wrapper ul {
+    padding-top: 17px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.wrapper li {
+    display: inline-block;
+    margin-right: 31px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.wrapper li:nth-child(5) {
+    margin-right: 0;
+}
+
+.wrapper a {
+    color: #333333;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.contact {
+    float: right;
+    margin-top: 41px;
+}
+
+.contact a {
+    margin-right: 37px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.contact button {
+    width: 170px;
+    height: 40px;
+    /* padding: 12px 26px 13px 27px; */
+    padding: 10px 29px 10px 28px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.regtangle {
+    margin-top: 12px;
+    border: 1px solid #EFEFEF;
+}
+
+nav {
+    height: 82px;
+}
+
+.menu-items {
+    padding-top: 32px;
+    margin-left: 35px;
+    font-size: 16px;
+    /* line-height: 19px; */
+    /* margin-right: -3px; */
+    color: #000000;
+}
+
+.menu-items li {
+    margin-right: 40px !important;
+}
+
+.banner {
+    height: 604px;
+    margin-bottom: 80px;
+}
+
+.banner .wrapper {
+    position: relative;
+    bottom: 397px;
+}
+
+h1 {
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    /* line-height: 56px; */
+    color: #FFFFFF;
+}
+
+.banner p {
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.banner button {
+    width: 170px;
+    height: 40px;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+main {
+    background: #E5E5E5;
+}
+
+.special-offers {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.special-offers .item {
+    float: right;
+    width: 255px;
+    height: 363px;
+    margin-left: 30px;
+    margin-top: 38px;
+    background: #FFFFFF;
+}
+
+.special-offers .item:nth-child(4) {
+    margin-left: 0;
+}
+
+.special-offers .item img {
+    display: block;
+    margin: 25px auto 20px auto;
+}
+
+.special-offers .item-name {
+    width: 195px;
+    height: 33px;
+    /* margin-bottom: 20px; */
+    margin: 0 auto;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+
+.special-offers .price {
+    margin-bottom: 13px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.special-offers button {
+    display: block;
+    width: 130px;
+    height: 35px;
+    margin: 0 auto;
+    background: #F13C6E;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;;
+    cursor: pointer;
+}
