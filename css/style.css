@@ -173,8 +173,7 @@ h1 {
 
 main { background: #E5E5E5; }
 
-.special-offers h2,
-.recently-viewed h2 {
+h2 {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -192,8 +191,7 @@ main { background: #E5E5E5; }
     padding-bottom: 80px;
 }
 
-.special-offers .item,
-.recently-viewed .item {
+.item {
     float: right;
     width: 255px;
     height: 363px;
@@ -202,19 +200,16 @@ main { background: #E5E5E5; }
     background: #FFFFFF;
 }
 
-.special-offers .item:nth-child(4),
-.recently-viewed .item:nth-child(4) {
+.item:nth-child(4){
     margin-left: 0;
 }
 
-.special-offers .item img,
-.recently-viewed .item img {
+.item img {
     display: block;
     margin: 25px auto 19px auto;
 }
 
-.special-offers .item-name,
-.recently-viewed .item-name {
+.item-name {
     width: 195px;
     height: 33px;
     margin: 0 auto;
@@ -223,8 +218,7 @@ main { background: #E5E5E5; }
     color: #333333;
 }
 
-.special-offers .price,
-.recently-viewed .price {
+.price {
     margin-bottom: 16px;
     margin-top: 20px;
     font-weight: 500;
@@ -235,8 +229,7 @@ main { background: #E5E5E5; }
     color: #000000;
 }
 
-.special-offers button,
-.recently-viewed button {
+.item button {
     display: block;
     width: 130px;
     height: 35px;
@@ -260,8 +253,7 @@ main { background: #E5E5E5; }
 
 .visit-us { float: right; }
 
-.visit-us img,
-.bonuses img {
+.promo img {
     float: right;
     padding-top: 56px;
     padding-right: 45px;
@@ -269,8 +261,7 @@ main { background: #E5E5E5; }
 
 .bonuses img { padding-top: 52px; }
 
-.visit-us h3,
-.bonuses h3 {
+h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
@@ -279,16 +270,13 @@ main { background: #E5E5E5; }
     padding-top: 35px;
 }
 
-.visit-us p,
-.bonuses p {
-    width: 122px;
+.promo p {
+    width: 129px;
     line-height: 20px;
     color: #FFFFFF;
     padding-top: 19px;
     padding-left: 40px;
 }
-
-.bonuses p { width: 129px; }
 
 .visit-us button,
 .bonuses input {
@@ -382,20 +370,17 @@ main { background: #E5E5E5; }
     border-radius: 45px;
 }
 
-.youtube img,
-.facebook img,
-.instagram img {
+.social-block img {
     display: block;
     margin: 0 auto;
     padding-top: 13px;
 }
 
-.facebook img {
+.facebook img,
+.instagram img {
     padding-top: 11px;
     padding-right: 2px;
 }
-
-.instagram img { padding-top: 10px; }
 
 .footer-contact {
     float: right;
