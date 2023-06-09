@@ -128,6 +128,7 @@ nav { height: 82px; }
 .banner {
     height: 604px;
     margin-bottom: 80px;
+    background: #F13C6E;
 }
 
 .banner img {
@@ -242,6 +243,7 @@ main { background: #E5E5E5; }
     margin: 0 auto;
     padding-left: 3px;
     background: #F13C6E;
+    border: #F13C6E;
     border-radius: 30px;
     color: #FFFFFF;
     letter-spacing: 0.05em;;
@@ -323,9 +325,13 @@ main { background: #E5E5E5; }
     background: #FFFFFF;
 }
 
-.impuls img {
+.impul img {
     display: block;
     margin: 35px 60px;
+}
+
+.impul img:nth-child(11) {
+    margin: 35px 63px;
 }
 
 .footer { height: 372px; }
@@ -388,6 +394,8 @@ main { background: #E5E5E5; }
     padding-top: 11px;
     padding-right: 2px;
 }
+
+.instagram img { padding-top: 10px; }
 
 .footer-contact {
     float: right;
