@@ -75,9 +75,7 @@ a { text-decoration: none; }
 
 .header li:nth-child(5) { margin-right: 0; }
 
-.header a {
-    color: #333333;
-}
+.header a { color: #333333; }
 
 .logo { padding-top: 20px; }
 
@@ -100,19 +98,19 @@ a { text-decoration: none; }
     background: #FFFFFF;
     border: 2px solid #F13C6E;
     border-radius: 40px;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
 .regtangle {
-    margin-top: 12px;
+    margin-top: 15px;
     border: 1px solid #EFEFEF;
 }
 
-nav { height: 82px; }
+nav { height: 79px; }
 
 .menu-items {
-    padding-top: 33px;
+    padding-top: 30px;
     font-size: 0;
     margin-left: 39px;
     text-align: center;
@@ -129,7 +127,6 @@ nav { height: 82px; }
 }
 
 .banner {
-    width: 100%;
     height: 604px;
     margin-bottom: 80px;
 }
@@ -145,7 +142,7 @@ nav { height: 82px; }
 }
 
 h1 {
-    margin-bottom: 60px;
+    margin-bottom: 61px;
     font-weight: 700;
     font-size: 48px;
     color: #FFFFFF;
@@ -191,7 +188,7 @@ h2 {
 
 .recently-viewed {
     margin-bottom: 0;
-    padding-bottom: 79px;
+    padding-bottom: 80px;
 }
 
 .item {
@@ -199,7 +196,7 @@ h2 {
     width: 255px;
     height: 363px;
     margin-left: 30px;
-    margin-top: 38px;
+    margin-top: 39px;
     background: #FFFFFF;
 }
 
@@ -222,7 +219,7 @@ h2 {
 }
 
 .price {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     margin-top: 20px;
     font-weight: 500;
     font-size: 21px;
@@ -270,7 +267,7 @@ h3 {
     line-height: 21px;
     color: #FFFFFF;
     padding-left: 40px;
-    padding-top: 35px;
+    padding-top: 36px;
 }
 
 .promo p {
@@ -306,7 +303,7 @@ h3 {
 
 .impuls {
     height: 358px;
-    margin-bottom: 80px;
+    margin-bottom: 79px;
 }
 
 .impul {
@@ -317,10 +314,7 @@ h3 {
     border: 1px solid #EFEFEF;
 }
 
-.impul li {
-    display: block;
-    padding: 35px 59px;
-}
+.impul li { padding: 35px 59px; }
 
 .impul:nth-child(2) li,
 .impul:nth-child(6) li,
@@ -389,7 +383,9 @@ h3 {
     border-radius: 45px;
 }
 
-.social-block img {
+.contact-block { height: 120px; }
+
+.contact-block img {
     display: block;
     margin: 0 auto;
     padding-top: 13px;
@@ -397,7 +393,7 @@ h3 {
 
 .facebook img,
 .instagram img {
-    padding-top: 11px;
+    padding-top: 10px;
     padding-right: 2px;
 }
 
@@ -411,8 +407,6 @@ h3 {
     font-size: 16px;
     color: #000000;
 }
-
-.social-block { height: 120px; }
 
 .copyright {
     height: 60px;
